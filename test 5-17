@@ -1,17 +1,62 @@
-<script>
-  (function() {
-  var cx = 'XXXXXXXXXX:YYYYYYYYY';
-  var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
-  gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//www.google.com/cse/cse.js?cx=' + cx;
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>FridgeWiz</title>
+        
+        <style>
+            h1{
+                 text-align: center;
+                 color: red;
+            }
+            p{
+                text-align: center;
+            }
+        </style>
+    <head/>
+    
+    <body>
+    <h1 style="color: red">FridgeWiz</h1>
+        <p> About </p>
+        
+        
+        
+        
+        <script>
+    (function() {
+    var cx = 'XXXXXXXXXX:YYYYYYYYY';
+    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
 })();
 </script>
 <div style="width:0px;overflow:hidden;height:0px;"> <!-- if you use display:nonw here it doesn't work-->
-  <gcse:search></gcse:search>
+    <gcse:search></gcse:search>
 </div>
 <form id="searchbox_XXXXXXXXXX:YYYYYYYYY" action="">
-  <input value="XXXXXXXXXX:YYYYYYYYY" name="cx" type="hidden"/>
-  <input value="FORID:11" name="cof" type="hidden"/>
-  <input id="q" style="" name="q" size="75" type="text"/>
-  <button class="btn">Search</button>
+    <input value="XXXXXXXXXX:YYYYYYYYY" name="cx" type="hidden"/>
+    <input value="FORID:11" name="cof" type="hidden"/>
+    <input id="q" style="" name="q" size="75" type="text"/>
+    <button class="btn">Search</button>
 </form>
+        
+        
+        
+        
+    <div>
+        <script>
+          (function() {
+            var cx = '000818554848644069788:rz1-af6xva8';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                '//cse.google.com/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+          })();
+</script>
+<gcse:search></gcse:search>
+    </div>
+    </body>
+</html>
