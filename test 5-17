@@ -1,0 +1,17 @@
+<script>
+  (function() {
+  var cx = 'XXXXXXXXXX:YYYYYYYYY';
+  var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+  gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//www.google.com/cse/cse.js?cx=' + cx;
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+})();
+</script>
+<div style="width:0px;overflow:hidden;height:0px;"> <!-- if you use display:nonw here it doesn't work-->
+  <gcse:search></gcse:search>
+</div>
+<form id="searchbox_XXXXXXXXXX:YYYYYYYYY" action="">
+  <input value="XXXXXXXXXX:YYYYYYYYY" name="cx" type="hidden"/>
+  <input value="FORID:11" name="cof" type="hidden"/>
+  <input id="q" style="" name="q" size="75" type="text"/>
+  <button class="btn">Search</button>
+</form>
